@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>TimeTabler</title>
+  <title>TimeTabler Create</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -27,90 +27,62 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-<div class="section">
-<div class="container card-panel hoverable center">
-<table>
-        <thead>
-          <tr>
-              <th data-field="time">Time</th>
-              <th data-field="sunday">Sunday</th>
-              <th data-field="monday">Monday</th>
-              <th data-field="tuesday">Tuesday</th>
-              <th data-field="wednesday">Wednesday</th>
-              <th data-field="thursday">Thursday</th>
-              <th data-field="friday">Friday</th>
-              <th data-field="saturday">Saturday</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-          </tr>
-          <tr>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-          </tr>
-          <tr>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-            <td>Blah</td>
-          </tr>
-        </tbody>
-      </table>
-      </div>
-      </div>
-
+  <br><br>
   <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
+    <div class="row">
+    <form class="col s12">
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-amber-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up registration process</h5>
-
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-amber-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">Easily check class availability</h5>
-
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-amber-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to use</h5>
-
-          </div>
+        <div class="input-field col s12">
+          <input id"subject" type="text" class="validate">
+          <label for="subject">Subject</label>
         </div>
       </div>
-
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="lecturer" type="password" class="validate">
+          <label for="lecturer">Lecturer</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="remark" type="email" class="validate">
+          <label for="remark">Remarks</label>
+        </div>
+      </div>
+    </form>
+  </div>
+    <div class = "row">
+      <div class="input-field col s6">
+        <select class="browser-default">
+        <option value="" disabled selected>Select Date</option>
+        <option value="1">Sunday</option>
+        <option value="2">Monday</option>
+        <option value="3">Tuesday</option>
+        <option value="4">Wednesday</option>
+        <option value="5">Thursday</option>
+        <option value="6">Friday</option>
+        <option value="7">Saturday</option>
+        </select>
+      </div>
+   <div class = "row">
+      <div class="input-field col s6">
+        <select class="browser-default">
+        <option value="" disabled selected>Select Period/Time</option>
+        <option value="1">2</option>
+        <option value="2">3</option>
+        <option value="3">4</option>
+        <option value="4">5</option>
+        <option value="5">6</option>
+        <option value="6">7</option>
+        <option value="7">8</option>
+        </select>
+      </div>
+   </div>
+   </form>
+    <div class="row center">
+        <a href="login.html" id="download-button" class="btn-large waves-effect waves- red darken-2">Submit</a>
     </div>
-    <br><br>
+    </div>
 
     <div class="section">
 
